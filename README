@@ -20,7 +20,7 @@ Currently, only UTF-8 strings are supported. Don't use EUC-KR with it!
 
 Supported fonts:
 
-Gulim, Dotum, Batang, Maugun Gothic
+Gulim, Dotum, Batang, Malgun Gothic
 8-12pt (11-16px)
 
 How to use:
@@ -66,3 +66,4 @@ $cut = $hw->cut($str, $max);  // use default end marker: ...
 $hw = new HangulWidth('Gulim', '16px', true);  // bold 12pt
 $width = $hw->width($str);
 $cut = $hw->cut($str, $max, '~');  // use different end marker
+
