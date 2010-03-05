@@ -2,7 +2,7 @@
 
 /**
  * -----------------------------------------------------------------------------
- *   H A N G U L   D I S P L A Y   W I D T H   C A L C U L A T O R   C L A S S
+ *  H A N P O K   :   On-Screen Display Width Calculator for Mixed Korean Text
  * -----------------------------------------------------------------------------
  * 
  * Web designers in Korea often need to trim text to fit inside a given box.
@@ -21,12 +21,12 @@
  * for multibyte strings. (Compile options: --with-pcre-regex --enable-mbregex)
  * Currently, only UTF-8 strings are supported. Don't use EUC-KR with it!
  * 
- * @package    HangulWidth
+ * @package    HanPok
  * @author     Kijin Sung <kijinbear@gmail.com>
  * @copyright  (c) 2010, Kijin Sung <kijinbear@gmail.com>
  * @license    GPL v3 <http://www.opensource.org/licenses/gpl-3.0.html>
- * @link       http://github.com/kijin/hangulwidth
- * @version    0.1.2
+ * @link       http://github.com/kijin/hanpok
+ * @version    0.1.3
  * 
  * -----------------------------------------------------------------------------
  * 
@@ -48,7 +48,7 @@
  * ----------------------------------------------------------------------------
  */
 
-class HangulWidth
+class HanPok
 {
     /**
      * Constructor.
